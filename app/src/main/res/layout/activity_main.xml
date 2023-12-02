@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FF7518"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/studdybuddy" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/studdybuddylogo" />
+
+    <LinearLayout
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/HPButton1_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:text="@string/HPButton1_name"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/HPButton2_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:text="@string/HPButton2_name" />
+
+        <Button
+            android:id="@+id/HPButton3_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:text="@string/HPButton3_name"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

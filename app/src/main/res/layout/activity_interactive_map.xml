@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FF7518"
+    tools:context=".InteractiveMap">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:src="@drawable/campusmap" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="362dp"
+        android:src="@drawable/campusmaptext" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/IMBB_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/IMBB_name" />
+
+            <Button
+                android:id="@+id/IMJPL_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/IMJPL_name" />
+
+            <Button
+                android:id="@+id/IMMH_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/IMMH_name" />
+
+            <Button
+                android:id="@+id/IMMS_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/IMMS_name" />
+
+            <Button
+                android:id="@+id/IMNPB_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/IMNPB_name" />
+
+            <Button
+                android:id="@+id/IMSEB_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/IMSEB_Name" />
+
+            <Button
+                android:id="@+id/IMStudentUnion_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/IMStudentUnion_name" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

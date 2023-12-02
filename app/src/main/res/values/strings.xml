@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">StuddyBuddy</string>
+
+    <string name="HPButton1_name">Campus Map</string>
+    <string name="HPButton2_name">Building List</string>
+    <string name="HPButton3_name">I\'m Feelin\' Lucky</string>
+
+    <string name="BLPageName_name">Building List</string>
+    <string name="BLBB_name">Business Building (BB)</string>
+    <string name="BLJPL_name">JPL</string>
+    <string name="BLMH_name">Mckinney Humanities Buidling (MH)</string>
+    <string name="BLMS_name">MultiDisciplinary Building (MS)</string>
+    <string name="BLNPB_name">North Paseo Building (NPB)</string>
+    <string name="BLSEB_Name">Science and Engineering Building (SEB)</string>
+    <string name="BLStudentUnion_name">Student Union (SU)</string>
+
+    <string name="IMPageName_name">Interactive Map</string>
+    <string name="IMBB_name">Business Building (BB)</string>
+    <string name="IMMS_name">MultiDisciplinary Building (MS)</string>
+    <string name="IMJPL_name">JPL</string>
+    <string name="IMMH_name">Mckinney Humanities Buidling (MH)</string>
+    <string name="IMNPB_name">North Paseo Building (NPB)</string>
+    <string name="IMSEB_Name">Science and Engineering Building (SEB)</string>
+    <string name="IMStudentUnion_name">Student Union (SU)</string>
+
+    <string name="StudySpot_text">Study Spots</string>
+
+    <string name="SSFPageName_name">Spot Suggestion Form</string>
+</resources>
